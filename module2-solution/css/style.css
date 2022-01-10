@@ -1,0 +1,98 @@
+body {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.chicken{
+  background-color: rgb(213,152,152);
+}
+.beef{
+  background-color: rgb(193,69,67);
+}
+.sushi{
+  background-color: rgb(229,209,152);
+}
+.title {
+  text-align: center;
+  font: 25px sans-serif;
+  font-weight: bold;
+}
+.row{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center{
+  text-align: center;
+  align-content: center;
+}
+
+.margin{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.margin2{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.color{
+  background-color: rgb(153,153,153);
+  border: 1px solid black;
+}
+.white{
+  color: white;
+}
+.text {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 3%;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tag{
+  text-align: center;
+  width: 30%;
+  position: absolute;
+    top: -1px;
+    right: -1px;
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container {
+  position: relative;
+}
+p{
+  text-align: left;
+}
+/********** Desktop **********/
+@media (min-width: 992px){
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-lg-6 {
+    width: 50%;
+    float:left;
+  }
+  #fulldiv {
+    width: 100%;
+  }
+}
+/********** Movil **********/
+@media (max-width: 767px){
+  .col-lg-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
